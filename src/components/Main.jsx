@@ -14,7 +14,7 @@ export default function Main() {
     const [result, setResult] = useState([]);
 
   return (
-    <div className = "w-full h-full">
+    <div className = "w-full 3/4">
     <ResultContext.Provider value={[result, setResult]}>
         <QueryContext.Provider value={[query, setQuery]}>
           <SearchContext.Provider value={[search, setSearch]}>

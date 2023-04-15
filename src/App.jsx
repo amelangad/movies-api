@@ -9,7 +9,7 @@ import Contact from '../src/pages/Contact'
 
 function App() {
   return (
-    <div>
+    <div className ="app">
       <Nav />
       <Routes>
       <Route path ="/" element = {<Home />}>

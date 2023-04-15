@@ -13,8 +13,7 @@ function Home() {
       <Header />
       <Main />
       <Footer />
-   </Suspense>
-  )
+   </Suspense>  )
 }
 
 export default Home

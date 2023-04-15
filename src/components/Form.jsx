@@ -22,7 +22,7 @@ function Form() {
         </h1>
         <form
             onSubmit={onSubmit}
-            className="w-full lg:w-1/2 flex justify-center items-center">
+            className="w-full lg:w-1/2 flex justify-center items-center p-3">
             <input
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
@@ -31,7 +31,7 @@ function Form() {
             </input>
             <button
                 type="submit"
-                className=" w-20 h-12 ml-5 cursor-pointer  bg-green rounded-full">Search</button>
+                className="w-1/2 h-12 ml-5 cursor-pointer opacity-60 bg-green rounded-sm hover:opacity-100">Search</button>
         </form>
         </div>
   )

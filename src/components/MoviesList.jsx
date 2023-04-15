@@ -28,7 +28,7 @@ function MoviesList() {
                         Type={item.Type}/>
                     <button type="submit"
                         onClick={() => setFavourite(item.Title)}
-                        className="bg-red  text-xl m-auto w-1/2 h-full flex justify-center mb-8 ">
+                        className="bg-red text-xl m-auto w-1/2 h-full flex justify-center mb-8 ">
                         The best movie! <span className="text-2xl px-2"><MdFavorite /></span></button>
                     <button type="submit"
                         onClick={() => list.includes(item.Title)? console.log('is on the list') : setList(prevList => { return [...prevList, item.Title] })  }
