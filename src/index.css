@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    background-color: black;
+
+    
+}
+
+.active{
+    display: flex;
+}
