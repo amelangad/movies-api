@@ -7,7 +7,7 @@ import { MdFavorite } from "react-icons/md";
 
 export const ListContext = createContext('')
 const apiKey = '3aa1a549';
-const url = `http://www.omdbapi.com/?apikey=${apiKey}&s`;
+const url = `https://www.omdbapi.com/?apikey=${apiKey}&s`;
 
 function MoviesList() {
     const [query, setQuery] = useContext(QueryContext);
